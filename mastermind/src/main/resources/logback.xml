@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Recarga automáticamente la configuración después de modificar -->
+<configuration scan="true" scanPeriod="60 seconds">
+	<property scope="context" name="COLORIZER_COLORS" value="boldred@,yellow@,green@,cyan@,cyan@" />
+    <conversionRule conversionWord="colorize" converterClass="org.tuxdude.logback.extensions.LogColorizer" />
+
+	<!-- Configuración del logger root - Consola -->
+	<root level="debug">
+		<appender-ref ref="STDOUT" />
+	</root>
+	
+	<!-- Appender para mostrar por consola -->
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<!-- Hora - Hilo - Nivel - Logger - mensaje -->
+			<pattern>%date [%thread] %colorize(%-5level) %caller{0} - %colorize(%-30logger) - %colorize(%msg)</pattern>
+		</encoder>
+	</appender>
+
+</configuration>
