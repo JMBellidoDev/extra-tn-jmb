@@ -1,0 +1,24 @@
+--class-path
+'C:/DEV/SCV/NTT Data/Extra/mastermind/target/mastermind-0.0.1-SNAPSHOT.jar;C:/DEV/Core/Apache/Maven/LocalRepository/org/xerial/sqlite-jdbc/3.45.3.0/sqlite-jdbc-3.45.3.0.jar;C:/DEV/Core/Apache/Maven/LocalRepository/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar;C:/DEV/Core/Apache/Maven/LocalRepository/ch/qos/logback/logback-classic/1.5.5/logback-classic-1.5.5.jar;C:/DEV/Core/Apache/Maven/LocalRepository/ch/qos/logback/logback-core/1.5.5/logback-core-1.5.5.jar;C:/DEV/Core/Apache/Maven/LocalRepository/org/tuxdude/logback/extensions/logback-colorizer/1.0.1/logback-colorizer-1.0.1.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'C:/DEV/SCV/NTT Data/Extra/mastermind/src/main/java;C:/DEV/SCV/NTT Data/Extra/mastermind/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/DEV/SCV/NTT Data/Extra/mastermind/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'mastermind 0.0.1-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'mastermind 0.0.1-SNAPSHOT API'

@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"app.controller"},{"l":"app.model"},{"l":"app.model.persistence"},{"l":"app.view"},{"l":"app.view.utils"}];updateSearchResults();

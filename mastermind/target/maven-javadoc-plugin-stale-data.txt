@@ -1,0 +1,53 @@
+@options
+@packages
+--class-path
+'C:/DEV/SCV/NTT Data/Extra/mastermind/target/mastermind-0.0.1-SNAPSHOT.jar;C:/DEV/Core/Apache/Maven/LocalRepository/org/xerial/sqlite-jdbc/3.45.3.0/sqlite-jdbc-3.45.3.0.jar;C:/DEV/Core/Apache/Maven/LocalRepository/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar;C:/DEV/Core/Apache/Maven/LocalRepository/ch/qos/logback/logback-classic/1.5.5/logback-classic-1.5.5.jar;C:/DEV/Core/Apache/Maven/LocalRepository/ch/qos/logback/logback-core/1.5.5/logback-core-1.5.5.jar;C:/DEV/Core/Apache/Maven/LocalRepository/org/tuxdude/logback/extensions/logback-colorizer/1.0.1/logback-colorizer-1.0.1.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'C:/DEV/SCV/NTT Data/Extra/mastermind/src/main/java;C:/DEV/SCV/NTT Data/Extra/mastermind/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/DEV/SCV/NTT Data/Extra/mastermind/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'mastermind 0.0.1-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'mastermind 0.0.1-SNAPSHOT API'
+app.controller
+app.model
+app.model.persistence
+app.view
+app.view.utils
+C:\DEV\SCV\NTT Data\Extra\mastermind\src\main\java = 1716988261202
+C:\DEV\SCV\NTT Data\Extra\mastermind\target\generated-sources\annotations = 1717048463914
+C:\DEV\SCV\NTT Data\Extra\mastermind\target\site\apidocs\allclasses-index.html = 1717048478535
+C:\DEV\SCV\NTT Data\Extra\mastermind\target\site\apidocs\allpackages-index.html = 1717048478545
+C:\DEV\SCV\NTT Data\Extra\mastermind\target\site\apidocs\constant-values.html = 1717048478324
+C:\DEV\SCV\NTT Data\Extra\mastermind\target\site\apidocs\element-list = 1717048478194
+C:\DEV\SCV\NTT Data\Extra\mastermind\target\site\apidocs\help-doc.html = 1717048478620
+C:\DEV\SCV\NTT Data\Extra\mastermind\target\site\apidocs\index-all.html = 1717048478594
+C:\DEV\SCV\NTT Data\Extra\mastermind\target\site\apidocs\index.html = 1717048478484
+C:\DEV\SCV\NTT Data\Extra\mastermind\target\site\apidocs\javadoc.bat = 1717048476099
+C:\DEV\SCV\NTT Data\Extra\mastermind\target\site\apidocs\jquery-ui.overrides.css = 1717048478643
+C:\DEV\SCV\NTT Data\Extra\mastermind\target\site\apidocs\member-search-index.js = 1717048478552
+C:\DEV\SCV\NTT Data\Extra\mastermind\target\site\apidocs\module-search-index.js = 1717048478546
+C:\DEV\SCV\NTT Data\Extra\mastermind\target\site\apidocs\overview-summary.html = 1717048478603
+C:\DEV\SCV\NTT Data\Extra\mastermind\target\site\apidocs\overview-tree.html = 1717048478473
+C:\DEV\SCV\NTT Data\Extra\mastermind\target\site\apidocs\package-search-index.js = 1717048478549
+C:\DEV\SCV\NTT Data\Extra\mastermind\target\site\apidocs\script.js = 1717048478632
+C:\DEV\SCV\NTT Data\Extra\mastermind\target\site\apidocs\search.js = 1717048478634
+C:\DEV\SCV\NTT Data\Extra\mastermind\target\site\apidocs\serialized-form.html = 1717048478364
+C:\DEV\SCV\NTT Data\Extra\mastermind\target\site\apidocs\stylesheet.css = 1717048478629
+C:\DEV\SCV\NTT Data\Extra\mastermind\target\site\apidocs\tag-search-index.js = 1717048478553
+C:\DEV\SCV\NTT Data\Extra\mastermind\target\site\apidocs\type-search-index.js = 1717048478550

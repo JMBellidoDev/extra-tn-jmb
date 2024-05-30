@@ -1,0 +1,1 @@
+cmd.exe /X /C "C:\DEV\Core\Java\JDK\ORACLE\Version\jdk-17.0.10\bin\javadoc.exe @options @packages"

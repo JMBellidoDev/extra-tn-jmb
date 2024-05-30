@@ -50,6 +50,9 @@ public class GameConstants {
   /** Puntuación perdida por cada check realizado */
   public static final int SCORE_LOST_PER_CHECK = 100;
 
+  /** Grosor del pintado del borde */
+  public static final int BORDER_STROKE = 3;
+
   /** Ruta hacia el fichero de persistencia */
   public static final String DB_PATH = "./src/main/resources/scores.db";
 

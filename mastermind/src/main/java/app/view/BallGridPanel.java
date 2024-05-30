@@ -1,8 +1,10 @@
 
 package app.view;
 
+import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Graphics;
+import java.awt.Graphics2D;
 
 import javax.swing.JPanel;
 
@@ -123,7 +125,10 @@ public class BallGridPanel extends JPanel {
 
     if (hasToPaint) {
       // Dibuja el cuadrado
-      g.drawRect(x - 5, y - 5, GameConstants.DIAMETER + 10, GameConstants.DIAMETER + 10);
+      Graphics2D g2d = (Graphics2D) g;
+      g2d.setStroke(new BasicStroke(GameConstants.BORDER_STROKE));
+
+      g2d.drawRect(x - 5, y - 5, GameConstants.DIAMETER + 10, GameConstants.DIAMETER + 10);
     }
 
   }
@@ -148,10 +153,13 @@ public class BallGridPanel extends JPanel {
             || (row == current[GameConstants.X_POSITION]
                 && solutionRow.getBalls()[col].getColor().equals(rows[row - 1].getBalls()[col].getColor())))) {
 
-      g.setColor(Color.GREEN);
+      Graphics2D g2d = (Graphics2D) g;
+
+      g2d.setColor(Color.GREEN);
 
       // Dibuja el cuadrado
-      g.drawRect(x - 5, y - 5, GameConstants.DIAMETER + 10, GameConstants.DIAMETER + 10);
+      g2d.setStroke(new BasicStroke(GameConstants.BORDER_STROKE));
+      g2d.drawRect(x - 5, y - 5, GameConstants.DIAMETER + 10, GameConstants.DIAMETER + 10);
     }
 
   }

@@ -24,6 +24,7 @@ import app.model.persistence.ScorePersistenceSQLite;
 import app.model.persistence.ScorePersistenceSQLiteException;
 import app.view.utils.GameConstants;
 
+/** Juego */
 public class Game {
 
   /** Logger */
@@ -314,14 +315,20 @@ public class Game {
 
     // Se almacena la puntuación y se muestra la puntuación obtenida y las almacenadas
     try {
+
+      if (player == null) {
+        player = "no_name_player";
+      }
+
       gameActions.saveScore(new Score(player, Integer.parseInt(lblScore.getText())));
       JOptionPane.showMessageDialog(ballPanel, gameActions.getBestScores() + "\nPuntuación: " + lblScore.getText());
+
+      LOGGER.debug("Persistencia de datos realizada con éxito\n");
 
     } catch (ScorePersistenceSQLiteException e) {
       JOptionPane.showMessageDialog(ballPanel, "Se produjo un error durante el almacenamiento de puntuaciones");
     }
 
-    LOGGER.debug("Persistencia de datos realizada con éxito\n");
     LOGGER.info("Fin del juego\n");
   }
 
