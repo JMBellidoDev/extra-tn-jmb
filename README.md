@@ -1,4 +1,4 @@
-![image](https://github.com/JMBellidoDev/extra-tn-jmb/assets/166582366/b4c87984-a5bb-4e4e-a3ff-c3e8ab395cdb)# Formación Dual. Proyectos Extra
+# Formación Dual. Proyectos Extra
 
 ## mastermind
 Se trata de un proyecto que simula el juego Master Mind. Funciona de la siguiente forma:
