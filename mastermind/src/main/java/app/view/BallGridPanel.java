@@ -130,7 +130,6 @@ public class BallGridPanel extends JPanel {
 
       g2d.drawRect(x - 5, y - 5, GameConstants.DIAMETER + 10, GameConstants.DIAMETER + 10);
     }
-
   }
 
   /**

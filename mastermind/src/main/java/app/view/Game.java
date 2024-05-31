@@ -256,12 +256,9 @@ public class Game {
       endGame();
 
     } else {
-
       // Se itera el juego si aún hay filas libres. Sino, el usuario ha perdido
       iterateNextRowNoWin(numberOfRow);
-
     }
-
   }
 
   /**
