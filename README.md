@@ -1,4 +1,4 @@
-# Formación Dual. Proyectos Extra
+![image](https://github.com/JMBellidoDev/extra-tn-jmb/assets/166582366/b4c87984-a5bb-4e4e-a3ff-c3e8ab395cdb)# Formación Dual. Proyectos Extra
 
 ## mastermind
 Se trata de un proyecto que simula el juego Master Mind. Funciona de la siguiente forma:
@@ -17,3 +17,33 @@ Se trata de un proyecto que simula el juego Master Mind. Funciona de la siguient
 Disfrutad del juego! :blush:
 
 ![image](https://github.com/JMBellidoDev/extra-tn-jmb/assets/166582366/a423399b-1d24-4573-8e67-07db9d129b3b)
+
+## bio-tech
+Se trata de un proyecto que simula un Polímero. Funciona de la siguiente forma:
+
+* La aplicación solicitará una cadena de monómeros que definirá el polímero. Será una cadena de letras A-Za-z sin incluir la Ñ.
+
+![image](https://github.com/JMBellidoDev/extra-tn-jmb/assets/166582366/ddd46c3b-dd21-434e-affd-1f69aead8a81)
+
+* El siguiente paso a realizar es provocar la reacción del polímero. La reacción se producirá entre monómeros opuestos dispuestos de forma consecutiva, es decir, entre monómeros representados por una letra mayúsculas y la misma pero en minúscula. Esta reacción se realizará de forma recursiva siempre que se produzca al menos una reacción en cada iteración. Dicho de otra forma, siempre que haya una reacción como mínimo, se volverá a comprobar si hay más.
+
+![image](https://github.com/JMBellidoDev/extra-tn-jmb/assets/166582366/9671fa8d-7fc6-4e76-91b7-a9ca03ae8029)
+
+* Existirá una dominancia relacionada con la cantidad de monomeros iguales consecutivos una vez se haya producido la reacción.
+  - Si hay dos monómeros representados por una letra minúscula situados de forma consecutiva, se considerará que la dominancia es negativa.
+  - Si hay dos monómeros representados por una letra mayúscula situados de forma consecutiva, se considerará que la dominancia es positiva.
+  - En caso de haber de ambos tipos, la predominante será la que más se repita.
+  - Si no se da ninguno de los casos anteriores, o ante igualdad de dominancias, se considerará que la dominancia es neutra.
+
+* Dominancia neutra
+  
+![image](https://github.com/JMBellidoDev/extra-tn-jmb/assets/166582366/e349b66b-7c59-4c1a-a482-6b5e3ddc78ff)
+
+* Dominancia Positiva
+  
+![image](https://github.com/JMBellidoDev/extra-tn-jmb/assets/166582366/7e216887-f118-403b-a48b-877d9b2c5a68)
+
+* Dominancia Negativa
+  
+![image](https://github.com/JMBellidoDev/extra-tn-jmb/assets/166582366/e1d8c958-ea82-4842-9623-b4cbc52f374e)
+
